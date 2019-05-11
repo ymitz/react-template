@@ -12,42 +12,44 @@ let fakeServerData = {
         name: 'My favarite',
         songs: [{
           name: 'A team',
-          duration: 50000,
+          duration: 10000,
         },
         {
           name: 'kimi to iu hana',
-          duration: 30000,
+          duration: 20000,
         }]
       },
       {
         name: 'Weekly Discover',
         songs: [{
           name: 'Thinking it loud',
-          duration: 10010,
-        }, {
+          duration: 30000,
+        },
+        {
           name: 'tentaikansoku',
-          duration: 20020,
+          duration: 40000,
         }]
       },
       {
         name: 'My Best Songs',
         songs: [{
           name: 'umi sono ai',
-          duration: 40000
+          duration: 50000
         },
         {
           name: 'ten',
-          duration: 80000
+          duration: 60000
         }]
       },
       {
         name: 'Rock!',
         songs: [{
           name: 'kanzenkankaku dreamer!',
-          duration: 100000,
-        }, {
+          duration: 70000,
+        },
+        {
           name: 'rokkinpo',
-          duration: 100
+          duration: 80000
         }]
       },
     ]
