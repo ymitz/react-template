@@ -175,7 +175,7 @@ class App extends Component {
       <div className="App">
         {this.state.user ?
           <div>
-            <h1 style={{ ...defaultStyle, 'font-size': '54px' }}>
+            <h1 style={{ ...defaultStyle, 'fontSize': '54px' }}>
               {this.state.user.name} 's PlayList
             </h1>
             {this.state.playlists &&
@@ -191,7 +191,7 @@ class App extends Component {
                 {
                   playlistToRender
                     .map(playlist => {
-                      return <PlayList playlist={playlist} />
+                      return <PlayList key={playlist.name} playlist={playlist} />
                     })
                 }
               </div>
@@ -201,7 +201,7 @@ class App extends Component {
             'http://localhost:8888/login'
             :'https://tfb-backend.herokuapp.com/login'
           }}
-            style={{ padding: '20px', 'font-size': '50px', 'margin-top': '20px' }}>
+            style={{ padding: '20px', 'fontSize': '50px', 'marginop': '20px' }}>
             Sign in with Spotify
           </button>
         }
